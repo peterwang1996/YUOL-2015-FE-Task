@@ -45,3 +45,17 @@
 - [CSS媒体查询 - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries)
 - [nodejs学习—安装](https://segmentfault.com/a/1190000003946734)
 - [nodejs学习（二）—anywhere搭建本地服务器](https://segmentfault.com/a/1190000003960609)
+
+------
+
+## 一点补充
+
+话说你们的学长最近在检查作业的时候，发现一个很蛋疼的问题。
+
+我每一次想检查你们作业的时候，总是要先把你们的仓库里最新的修改 `push` 回来看，虽然 GitHub 的效率显然比直接传 zip 压缩包不知道高到哪里去了，但是这样还是略显麻烦。
+
+如果你们想体谅一下你们可怜的学长的话，可以试着去学一学 [GitHub Pages](https://pages.github.com/) 是怎么玩的，如果官方的英文页面你看不懂，我最开始给你们提供的 GitHub 教程里面也有关于这个功能的介绍。
+
+简言之，就是 GitHub 给你提供一个静态服务器，你仓库里所有在 `gh-pages` 这个分支下面的文件都可以通过这个静态服务器进行访问。
+
+如果你真的这么做了并且感觉不错，那我再在这里提一点小建议：鉴于我们本来就是搭建的 Web 站点，各位不妨只留下一个 `gh-pages` 分支作为主分支，这样无论我什么时候访问你们的 GitHub Pages ，也总是能够看到你们最新的页面，岂不美哉？
